@@ -1,6 +1,6 @@
 package Assignment1;
 
-public class fsecondQP {
+public class secondQP {
 
     public static void main(String[] args) {
 
