@@ -1,3 +1,6 @@
+
+// WAP to find if String contains all unique characters.
+
 package Assignment_4;
 
 import java.util.Scanner;

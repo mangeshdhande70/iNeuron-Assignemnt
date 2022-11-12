@@ -1,7 +1,8 @@
+
+//  WAP to print Duplicates characters from the String
+
 package Assignment_4;
 
-import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Q2__DuplicatesCharacter {

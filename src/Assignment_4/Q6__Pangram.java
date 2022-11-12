@@ -1,3 +1,6 @@
+
+// WAP to implement Pangram Checking with least inbuilt methods being used
+
 package Assignment_4;
 
 public class Q6__Pangram {

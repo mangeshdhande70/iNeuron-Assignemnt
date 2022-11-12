@@ -1,3 +1,5 @@
+// WAP to find the maximum occurring character in a String
+
 package Assignment_4;
 
 import java.util.Scanner;

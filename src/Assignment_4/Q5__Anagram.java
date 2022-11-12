@@ -1,3 +1,6 @@
+
+// WAP to implement Anagram Checking least inbuilt methods being used
+
 package Assignment_4;
 
 import com.sun.source.tree.IfTree;
@@ -39,7 +42,6 @@ public class Q5__Anagram {
     }
     static String toLowerCaseInClass(String str)
     {
-
         String newString = "";
         for (int i = 0; i < str.length() ; i++) {
             if (str.charAt(i) >= 97 && str.charAt(i)<=122)
@@ -49,7 +51,7 @@ public class Q5__Anagram {
                 newString+=(char)(str.charAt(i)+32);
             }
         }
-        System.out.println(newString);
+//        System.out.println(newString);
         return newString;
 
     }
