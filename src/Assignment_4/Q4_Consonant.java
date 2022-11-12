@@ -1,11 +1,17 @@
 package Assignment_4;
 
+import java.util.Scanner;
+
 public class Q4_Consonant {
 
     public static void main(String[] args) {
 
-        String string = "mangesh$#@iou";
-        int vowels = 0, consonant = 0, specialChar = 0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a String :- ");
+        String string = scanner.nextLine();
+        string = string.toLowerCase();
+        System.out.println("String length :- "+string.length());
+        int vowels = 0, consonant = 0, specialChar = 0,numerics = 0;
 
         for (int i = 0; i < string.length(); i++) {
 
@@ -17,13 +23,17 @@ public class Q4_Consonant {
                     || string.charAt(i) == 'a' || string.charAt(i) == 'e') {
                 vowels++;
 
+            } else if (string.charAt(i) >= 48 && string.charAt(i)<=57) {
+                numerics++;
+                
             } else {
                 consonant++;
             }
 
         }
 
-        System.out.println("Consonant = "+consonant+"\nVowels = "+vowels+"\nSpecial Character = "+specialChar);
+        System.out.println("Consonant = "+consonant+"\nVowels = "+vowels+
+                "\nSpecial Character = "+specialChar+"\nNumerics = "+numerics);
 
     }
 
