@@ -1,9 +1,8 @@
 package Assignment_4;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class Q8__ {
+public class Q8__MaximumOccuringChar {
 
     public static void main(String[] args) {
 
