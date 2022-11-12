@@ -17,7 +17,7 @@ public class ArraySubset {
                     break;
             }
             if (j==l1) {
-                System.out.println(j);
+//                System.out.println(j);
                 flag = false;
             }
 
